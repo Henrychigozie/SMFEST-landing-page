@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Custom private storage
+.safebox
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Build output
+dist/
+build/
+
+# Editor/system files
+.vscode/
+.DS_Store
+Thumbs.db

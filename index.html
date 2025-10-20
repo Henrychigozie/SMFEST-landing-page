@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>SM_FEST</title> 
+</head>
+<body class="bg-[#08003c]">
+<section class="relative w-full h-[120vh] overflow-hidden">
+  <!-- Background video -->
+  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover -z-10">
+    <source src="assets/WhatsApp Video 2025-10-06 at 11.02.42_5d354f70.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay -->
+<div class="absolute top-0 left-0 w-full h-full z-[-1] bg-gradient-to-b from-[#0805375b] to-[#080537e1]"></div>
+
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 w-full bg-[#08003c] py-6 z-50">
+  <div class="max-w-[1300px] flex justify-between items-center mx-auto px-6 max-[999px]:px-12 max-[477px]:px-4">
+
+    <!-- Logo -->
+    <img src="assets/INT-1536x842.webp" alt="Logo" class="w-16 rounded-lg cursor-pointer" />
+
+    <div class="flex items-center gap-4">
+      <!-- Get Access Button (always visible) -->
+      <a href="#" class="flex items-center gap-2 px-5 py-2 rounded-full text-white text-sm font-medium bg-[#6636e5] hover:bg-[#7b53f0] 
+      transition max-[450px]:px-3 max-[450px]:py-1.5 max-[450px]:text-[10px]">
+        Get Access
+        <svg width="15" height="15" viewBox="0 0 15 15">
+          <path d="M14.9 7.8s0 .2-.2.2l-6.8 6.8c-.1.1-.3.2-.5.2s-.4 0-.5-.2c-.3-.3-.3-.7 0-1l5.5-5.5H.7c-.4-.1-.7-.4-.7-.8s.3-.7.7-.7h11.8L7 1.2c-.3-.3-.3-.7 0-1s.7-.3 1 0L14.8 7l.2.2v.6Z" fill="white"/>
+        </svg>
+      </a>
+
+      <!-- Sponsor button (hidden on small screens) -->
+      <a href="#" class="hidden max-[999px]:hidden min-[1000px]:flex items-center gap-2 px-5 py-2 rounded-full text-white text-sm font-medium bg-[#6636e5] hover:bg-[#7b53f0] transition">
+        Sponsor
+        <svg width="15" height="15" viewBox="0 0 15 15">
+          <path d="M14.9 7.8s0 .2-.2.2l-6.8 6.8c-.1.1-.3.2-.5.2s-.4 0-.5-.2c-.3-.3-.3-.7 0-1l5.5-5.5H.7c-.4-.1-.7-.4-.7-.8s.3-.7.7-.7h11.8L7 1.2c-.3-.3-.3-.7 0-1s.7-.3 1 0L14.8 7l.2.2v.6Z" fill="white"/>
+        </svg>
+      </a>
+
+      <!-- Menu Icon (only visible on ≤999px) -->
+      <button class="max-[999px]:block min-[1000px]:hidden">
+        <svg class="ct-icon" width="22" height="16" viewBox="0 0 18 14" fill="white" aria-hidden="true">
+          <rect y="0.00" width="18" height="1.7" rx="1"></rect>
+          <rect y="6.15" width="18" height="1.7" rx="1"></rect>
+          <rect y="12.3" width="18" height="1.7" rx="1"></rect>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero content -->
+  <div class="relative z-10 flex flex-col justify-center text-center items-center text-white h-full max-sm:mt-15">
+    <div class="max-w-[1300px] mt-50 max-[999px]:mt-30 max-md:pl-3 max-md:text-left max-md:mr-auto max-md:mt-70 max-sm:mt-40">
+             <h1 class="text-[5.2rem] font-bold leading-tight max-[999px]:text-[5rem] max-[812px]:text-[4.9rem] max-md:text-[2rem] 
+             max-sm:text-[2.5rem]">SMFEST ABUJA</h1>
+    <h1 class="text-[5.4rem] font-bold leading-tight max-[999px]:text-[5rem] max-md:text-[2rem]">AFRICA UNLOCKED</h1>
+    </div>
+ 
+<!-- purchase buttton -->
+ <div class="max-w-[900px] items-center flex gap-5 justify-center mt-10 max-md:mr-auto max-md:pl-3 ">
+<!-- Get Ticket Button -->
+<a
+  href="#"
+  class="flex items-center justify-center text-center leading-none 
+  px-[230px] py-7 rounded-2xl bg-[#FFB800] text-[#08003C] text-2xl font-extrabold 
+  transition-all duration-300 hover:scale-105
+  max-[999px]:px-[180px] max-[999px]:py-4 max-[999px]:text-[18px]
+  max-md:px-[130px] max-md:text-[16px]
+  max-sm:px-[80px] max-sm:text-[15px]
+  max-[477px]:px-[25px] max-[477px]:py-[10px] max-[477px]:text-[13px]"
+>
+  Get&nbsp;Ticket
+</a>
+
+<!-- Sponsor Button -->
+<a
+  href="#"
+  class="flex items-center justify-center text-center leading-none 
+  px-[230px] py-7 rounded-2xl bg-pink-600 text-white text-2xl font-extrabold 
+  transition-all duration-300 hover:scale-105
+  max-[999px]:px-[180px] max-[999px]:py-4 max-[999px]:text-[18px]
+  max-md:px-[130px] max-md:text-[16px]
+  max-sm:px-[80px] max-sm:text-[15px]
+  max-[477px]:px-[25px] max-[477px]:py-[10px] max-[477px]:text-[13px]"
+>
+  Sponsor
+</a>
+
+</div>
+
+
+  <!-- Infinite Seamless Marquee -->
+  <div class="w-[98%] bg-[#0A043C] text-white font-extrabold py-5 overflow-hidden mt-29
+  max-[999px]:w-[96%] max-md:mt-9">
+    <div class="relative flex w-max animate-marquee">
+      <!-- 1st copy -->
+      <div class="flex items-center gap-6 px-6">
+        <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>SMFEST MASTERCLASS: 19TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+      </div>
+
+      <!-- 2nd copy (for seamless effect) -->
+      <div class="flex items-center gap-6 px-6">
+        <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
+        <span class="text-pink-500">|</span>
+        <span>SMFEST MASTERCLASS</span>
+        <span class="text-pink-500">|</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<!-- OUR SPEARKERS  -->
+ <section class="mt-10">
+  <!-- title -->
+   <div class="max-w-[800px] pl-7 mb-10 max-md:pl-0 max-sm:break-words max-sm:px-2">
+    <h2 class="text-white text-[50px] font-[800] max-md:text-center max-md:text-[35px]">
+      Meet Our Speakers
+    </h2>
+   </div>
+
+   <!-- images section -->
+    <div class="container grid grid-cols-4 gap-5 mx-auto px-10 
+    max-[999px]:grid-cols-3 max-[999px]:px-4 max-[999px]:max-w-[960px] max-md:grid-cols-2 max-md:max-w-[400px]">
+      <!-- first box -->
+          <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+            <!-- Background Image -->
+             <div class="absolute inset-0 bg-[url('assets/speakers/Ajah-excel-2025.webp')] bg-cover bg-center bg-no-repeat"></div>
+            <!-- Text box -->
+            <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+              <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Ajah Excel</h4>
+                <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                CEO, Silicon Africa, Convener, SMFest, International
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- second box -->
+           <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+               <div class="absolute inset-0 bg-[url('assets/speakers/BENJAMIN.webp')] bg-cover bg-center bg-no-repeat"></div>                         
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                            <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Hon. Benjamin Kalu</h4>
+                            <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                           Deputy Speaker, House of Representatives
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+              <!-- Third box -->
+              <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+          <div class="absolute inset-0 bg-[url('assets/speakers/ABU.webp')] bg-cover bg-center bg-no-repeat"></div>                           
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                            <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Abubakar Suleiman</h4>
+                            <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            ⁠CEO, Sterling Bank
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+              <!-- fourth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+              <div class="absolute inset-0 bg-[url('assets/speakers/odunayo.webp')] bg-cover bg-center bg-no-repeat"></div>                              
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                            <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Odunayo Sanya</h4>
+                             <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            Executive Director, MTN Foundation
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!-- fifth box -->
+                <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                 <div class="absolute inset-0 bg-[url('assets/speakers/AGBOOLA.webp')] bg-cover bg-center bg-no-repeat"></div>
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                           <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Olugbenga Agboola</h4>
+                             <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Flutterwave
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!-- sixth box -->
+                <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                     <div class="absolute inset-0 bg-[url('assets/speakers/oga-sabinus-e1756459869483.webp')] bg-cover bg-center bg-no-repeat"></div>
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                            <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Oga Sabinus</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                           Comedian, Content Creator
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!-- seventh box -->
+               <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                     <div class="absolute inset-0 bg-[url('assets/speakers/LINUS.webp')] bg-cover bg-center bg-no-repeat"></div>
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Linus Okorie</h4>
+                             <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            President, GOTNI
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!-- eight box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+               <div class="absolute inset-0 bg-[url('assets/speakers/OBINAA-UKACHUKWU.webp')] bg-cover bg-center bg-no-repeat"></div>                       
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Obinna Ukachukwu</h4>
+                             <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                           Growth Executive,  Sterling Bank
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!-- ninth box -->
+                  <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                     <div class="absolute inset-0 bg-[url('assets/speakers/TOYOSIN.png')] bg-cover bg-center bg-no-repeat"></div>
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                           <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Toyosi Akerele-Ogunsiji</h4>
+                                <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Rise Network
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!--tenth box -->
+              <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                      <div class="absolute inset-0 bg-[url('assets/speakers/GIDEON.webp')] bg-cover bg-center bg-no-repeat"></div>                
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Gideon Osi</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            President/GMD, GOSIMA Group
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!-- eleventh box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                      <div class="absolute inset-0 bg-[url('assets/speakers/UGO.webp')] bg-cover bg-center bg-no-repeat"></div> 
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Ugochukwu Omeogu</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            ⁠CEO, Merignos Consulting
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+             <!--twelveth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                  <div class="absolute inset-0 bg-[url('assets/speakers/FELIX.webp')] bg-cover bg-center bg-no-repeat"></div>      
+                  <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Mr. Felix Achibiri</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                           Chairman, DFC Holdings
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+             <!--thirteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                    <div class="absolute inset-0 bg-[url('assets/speakers/SEYI-VODI-e1757523730260.png')] bg-cover bg-center bg-no-repeat"></div> 
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Seyi Adekunle OON (Seyi Vodi)</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Seyi Vodi Group
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+             <!--fourteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+             <div class="absolute inset-0 bg-[url('assets/speakers/OLALJIDE-e1756460108452.webp')] bg-cover bg-center bg-no-repeat"></div>                  
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Olajide Abiola</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Gidanka
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+             <!--fifteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+              <div class="absolute inset-0 bg-[url('assets/speakers/MSHELIA-2-e1756490476393.webp')] bg-cover bg-center bg-no-repeat"></div>                  
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Arc. Dr. Barka Umaru Mshelia</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Mshel Group
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+             <!--sixteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+                 <div class="absolute inset-0 bg-[url('assets/speakers/CAROLINEwabarawebp-e1758553500802.webp')] bg-cover bg-center bg-no-repeat"></div> 
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Caroline Wabara</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEo Wab Digital
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!--seventeenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+        <div class="absolute inset-0 bg-[url('assets/speakers/SALEM-KING-e1756463069312.webp')] bg-cover bg-center bg-no-repeat"></div>          
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Salem King</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            Content Creator
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!--eighteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+       <div class="absolute inset-0 bg-[url('assets/speakers/TASTIA-e1757523841496.png')] bg-cover bg-center bg-no-repeat"></div>                
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Agwu Kester Okike</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Tastia Restaurant and Bakery
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+            <!--ninteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+             <div class="absolute inset-0 bg-[url('assets/speakers/Black-White-1-copy-6.png')] bg-cover bg-center bg-no-repeat"></div> 
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Engr. Dr. Darlington Ugota</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, Esthington Group
+                            </p>
+                          </div>
+                    </div>
+         </div>
+         
+            <!--twenteenth box -->
+                 <div class="relative bg-[#6636e5] rounded-2xl overflow-hidden h-[340px] max-md:h-[220px]">
+                    <!-- Background Image -->
+            <div class="absolute inset-0 bg-[url('assets/speakers/OLUMAYO-e1757523603579.png')] bg-cover bg-center bg-no-repeat"></div>          
+                    <!-- Text box -->
+                    <div class="absolute bottom-0 left-0 right-0 px-3 pb-2">
+                         <div class="bg-[#08003C] text-white p-4 rounded-2xl max-sm:break-words">
+                             <h4 class="text-[16.5px] font-extrabold max-md:text-[12px]">Arch. Dr. Olumayowa Olurishe</h4>
+                           <p class="text-[13.5px] font-medium max-md:text-[10px]">
+                            CEO, DME Group
+                            </p>
+                          </div>
+                    </div>
+         </div>
+
+         
+     </div>   
+
+   
+
+ </section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
