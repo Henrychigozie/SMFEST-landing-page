@@ -50,93 +50,76 @@
 </nav>
 
   <!-- hero_secction and navbar -->
-<section class="relative w-full h-[100vh] overflow-hidden max-[365px]:h-full max-md:overflow-hidden mt-20 ">
+<section class="hero-section relative w-full h-[100vh] mt-20 overflow-hidden max-[365px]:h-full">
+
   <!-- Background video -->
-  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover -z-10 overflow-hidden">
+  <video autoplay muted loop playsinline class="hero-video">
     <source src="assets/WhatsApp Video 2025-10-06 at 11.02.42_5d354f70.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
   <!-- Overlay -->
-<div class="absolute top-0 left-0 w-full h-full z-[-1] bg-gradient-to-b from-[#0805375b] to-[#080537e1] overflow-hidden"></div>
+  <div class="hero-overlay"></div>
 
   <!-- Hero content -->
-  <div class="relative z-10 flex flex-col justify-center text-center items-center text-white h-full max-sm:mt-15 overflow-hidden">
-    <div class="max-w-[1300px] mt-40 max-[999px]:mt-30 max-md:pl-3 max-md:text-left max-md:mr-auto max-md:mt-50 max-sm:mt-20">
-             <h1 class="text-[5.2rem] font-bold leading-tight max-[999px]:text-[5rem] max-[812px]:text-[4.9rem] max-md:text-[2rem] 
-             max-sm:text-[2.5rem]">SMFEST ABUJA</h1>
-    <h1 class="text-[5.4rem] font-bold leading-tight max-[999px]:text-[5rem] max-md:text-[2rem]">AFRICA UNLOCKED</h1>
+  <div class="relative z-10 flex flex-col justify-center items-center text-center text-white h-full max-sm:mt-30">
+    <div class="max-w-[1300px] mt-40 max-md:pl-3 max-md:text-left max-md:mr-auto max-md:mt-50 max-sm:mt-20">
+      <h1 class="text-[5.2rem] font-bold leading-tight max-[999px]:text-[5rem] max-[812px]:text-[4.9rem] max-md:text-[2rem] max-sm:text-[2.5rem]">
+        SMFEST ABUJA
+      </h1>
+      <h1 class="text-[5.4rem] font-bold leading-tight max-[999px]:text-[5rem] max-md:text-[2rem]">
+        AFRICA UNLOCKED
+      </h1>
     </div>
- 
-<!-- purchase buttton -->
- <div class="max-w-[900px] items-center flex gap-5 justify-center mt-8 max-md:mr-auto max-md:pl-3">
-<!-- Get Ticket Button -->
-<a
-  href="#"
-  class="flex items-center justify-center text-center leading-none 
-  px-[230px] py-7 rounded-2xl bg-[#FFB800] text-[#08003C] text-2xl font-extrabold 
-  transition-all duration-300 hover:scale-105
-  max-[999px]:px-[180px] max-[999px]:py-4 max-[999px]:text-[18px]
-  max-[911px]:px-[145px]
-  max-md:px-[110px] max-md:text-[16px]
-  max-sm:px-[50px] max-sm:text-[15px]
-   max-[477px]:py-[10px] max-[477px]:text-[13px]"
->
-  Get&nbsp;Ticket
-</a>
 
-<!-- Sponsor Button -->
-<a
-  href="#"
-  class="flex items-center justify-center text-center leading-none 
-  px-[230px] py-7 rounded-2xl bg-pink-600 text-white text-2xl font-extrabold 
-  transition-all duration-300 hover:scale-105
-  max-[999px]:px-[180px] max-[999px]:py-4 max-[999px]:text-[18px]
-   max-[911px]:px-[145px]
-  max-md:px-[110px] max-md:text-[16px]
-  max-sm:px-[50px] max-sm:text-[15px]
- max-[477px]:py-[10px] max-[477px]:text-[13px]"
->
-  Sponsor
-</a>
+    <!-- Buttons -->
+    <div class="max-w-[900px] flex gap-5 justify-center mt-8 max-md:mr-auto max-md:pl-3">
+      <!-- Get Ticket -->
+      <a href="#"
+         class="flex items-center justify-center px-[230px] py-7 rounded-2xl bg-[#FFB800] text-[#08003C] text-2xl font-extrabold 
+                transition-all duration-300 hover:scale-105
+                max-[999px]:px-[180px] max-[999px]:py-4 max-[999px]:text-[18px]
+                max-[911px]:px-[145px] max-md:px-[110px] max-md:text-[16px]
+                max-sm:px-[50px] max-sm:text-[15px] max-[477px]:py-[10px] max-[477px]:text-[13px]">
+        Get&nbsp;Ticket
+      </a>
 
-</div>
+      <!-- Sponsor -->
+      <a href="#"
+         class="flex items-center justify-center px-[230px] py-7 rounded-2xl bg-pink-600 text-white text-2xl font-extrabold 
+                transition-all duration-300 hover:scale-105
+                max-[999px]:px-[180px] max-[999px]:py-4 max-[999px]:text-[18px]
+                max-[911px]:px-[145px] max-md:px-[110px] max-md:text-[16px]
+                max-sm:px-[50px] max-sm:text-[15px] max-[477px]:py-[10px] max-[477px]:text-[13px]">
+        Sponsor
+      </a>
+    </div>
 
-
-  <!-- Infinite Seamless Marquee -->
-  <div class="w-[98%] bg-[#0A043C] text-white font-extrabold py-5 overflow-hidden mt-13
-  max-[999px]:w-[96%] max-[999px]:mt-6 max-[365px]:mb-4">
-    <div class="relative flex w-max animate-marquee">
-      <!-- 1st copy -->
-      <div class="flex items-center gap-6 px-6">
-        <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>SMFEST MASTERCLASS: 19TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-      </div>
-
-      <!-- 2nd copy (for seamless effect) -->
-      <div class="flex items-center gap-6 px-6">
-        <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
-        <span class="text-pink-500">|</span>
-        <span>SMFEST MASTERCLASS</span>
-        <span class="text-pink-500">|</span>
+    <!-- Marquee -->
+    <div class="w-[98%] bg-[#0A043C] text-white font-extrabold py-5 overflow-hidden mt-13
+                max-[999px]:w-[96%] max-[999px]:mt-6 max-[365px]:mb-4">
+      <div class="relative flex w-max animate-marquee">
+        <div class="flex items-center gap-6 px-6">
+          <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
+          <span class="text-pink-500">|</span>
+          <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
+          <span class="text-pink-500">|</span>
+          <span>SMFEST MASTERCLASS: 19TH OCTOBER, 2025</span>
+          <span class="text-pink-500">|</span>
+        </div>
+        <div class="flex items-center gap-6 px-6">
+          <span>FOUNDERS' MIXER: 17TH OCTOBER, 2025</span>
+          <span class="text-pink-500">|</span>
+          <span>SMFEST FESTIVAL: 18TH OCTOBER, 2025</span>
+          <span class="text-pink-500">|</span>
+          <span>SMFEST MASTERCLASS: 19TH OCTOBER, 2025</span>
+          <span class="text-pink-500">|</span>
+        </div>
       </div>
     </div>
-  </div>
-
   </div>
 </section>
+
 
 <!-- OUR SPEARKERS  -->
  <section class="mt-10 px-10">
@@ -909,7 +892,7 @@
 
   <!-- TOP ROW: FLEX -->
   <div class="mx-auto max-w-[1250px] px-4 flex gap-6 max-[999px]:flex-col">
-    <!-- BOX 1 (70%) -->
+    <!-- BOX 1  -->
     <div class="relative slideshow rounded-xl overflow-hidden border-b-[10px] border-r-[10px] border-[#00FFAA] h-[450px] w-[45%] max-[999px]:w-full ">
       <img src="assets/best_stage/001 (2).webp" alt="">
       <img src="assets/best_stage/001 (1).webp" alt="">
@@ -919,7 +902,7 @@
       <img src="assets/best_stage/001 (6).webp" alt="">
     </div>
 
-    <!-- BOX 2 (remaining width) -->
+    <!-- BOX 2  -->
     <div class="relative slideshow rounded-xl overflow-hidden border-b-[10px] border-r-[10px] border-[#FF00A8] h-[450px] w-full">
       <img src="assets/best_stage/002 (1).webp" alt="">
       <img src="assets/best_stage/002 (2).webp" alt="">
